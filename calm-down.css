@@ -3,3 +3,11 @@
 .vector-toc .vector-toc-list-item-active > .vector-toc-link, .vector-toc .vector-toc-level-1-active:not(.vector-toc-list-item-expanded) > .vector-toc-link, .vector-toc .vector-toc-list-item-active.vector-toc-level-1-active > .vector-toc-link {
     font-weight: normal !important;
 }
+
+/* Some visual differentiation in the TOC is nice. */
+div#vector-toc {
+	/* blends in w the little line under the article title */
+	border-top: 1px solid #a2a9b1;
+	border-left: 1px solid #a2a9b1;
+	border-right: 1px solid #a2a9b1;
+}
