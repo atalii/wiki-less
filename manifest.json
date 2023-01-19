@@ -1,0 +1,14 @@
+{
+  "manifest_version": 2,
+  "name": "wiki-less",
+  "version": "0.1.0",
+
+  "description": "Touch up the new Wikipedia design.",
+
+  "content_scripts": [
+     {
+       "matches": ["*://*.wikipedia.org/*"],
+       "css": ["calm-down.css"]
+     }
+  ]
+}
